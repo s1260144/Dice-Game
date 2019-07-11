@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+int x,y,z;
+
+srand(time(NULL));
+
+x=rand()%6+1;
+y=rand()%6+1;
+
+printf("Rolling the dice...");
+printf("\n");
+printf("Die 1: %d" 'x);
+printf("\n");
+printf("Die 2: %d" ,y);
+printf("\n");
+z=x+y;
+printf("Total value: %d" ,z);
+printf("\n");
+return 0;
+}
