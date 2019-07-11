@@ -10,7 +10,7 @@ y=rand()%6+1;
 
 printf("Rolling the dice...");
 printf("\n");
-printf("Die 1: %d" 'x);
+printf("Die 1: %d" ,x);
 printf("\n");
 printf("Die 2: %d" ,y);
 printf("\n");
