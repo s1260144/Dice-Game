@@ -17,5 +17,11 @@ printf("\n");
 z=x+y;
 printf("Total value: %d" ,z);
 printf("\n");
+if(z<=7){
+printf("You won");
+}
+else{
+printf("You lost");
+}
 return 0;
 }
